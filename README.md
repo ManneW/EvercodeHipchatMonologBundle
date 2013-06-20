@@ -15,6 +15,7 @@ Add the bundle to your AppKernel.php:
 ``` php
 $bundles = array(
     //...
+    new Mannew\HipChatBundle\MannewHipchatBundle(),
     new Evercode\HipchatBundle\EvercodeHipchatMonologBundle(),
 );
 ```
@@ -30,6 +31,9 @@ monolog:
 
 You also can configure it:
 ``` yaml
+mannew_hipchat:
+    auth_token: YOUR_HIPCHAT_AUTH_TOKEN_HERE
+
 evercode_hipchat:
     name: Error Reporter
     room: Errors

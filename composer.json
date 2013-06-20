@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "mannew/hipchat-bundle": "dev-master"
+        "mannew/hipchat-bundle": "dev-master#099ac7d854e24dcf8a2a142a6dcc315bda832ad8"
     },
     "autoload": {
         "psr-0": { "EvercodeLab\\HipchatBundle": "" }
