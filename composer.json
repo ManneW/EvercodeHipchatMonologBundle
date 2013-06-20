@@ -19,8 +19,8 @@
         "mannew/hipchat-bundle": "dev-master#099ac7d854e24dcf8a2a142a6dcc315bda832ad8"
     },
     "autoload": {
-        "psr-0": { "EvercodeLab\\HipchatBundle": "" }
+        "psr-0": { "Evercode\\HipchatBundle": "" }
     },
     "minimum-stability": "dev",
-    "target-dir": "EvercodeLab/HipchatBundle"
+    "target-dir": "Evercode/HipchatBundle"
 }
