@@ -1,0 +1,26 @@
+{
+    "name": "evercodelab/hipchat-monolog-bundle",
+    "type": "symfony-bundle",
+    "description": "Allows you send errors to hipchat",
+    "keywords": ["logs", "hipchat"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "EvercodeLab",
+            "homepage": "http://www.evercodelab.com/"
+        },
+        {
+            "name": "Igor Adrov",
+            "email": "nucleartux@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "mannew/hipchat-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "EvercodeLab\\HipchatBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "EvercodeLab/HipchatBundle"
+}

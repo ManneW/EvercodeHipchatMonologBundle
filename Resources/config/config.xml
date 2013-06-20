@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="evercode.monolog.handler.hipchat" class="Evercode\HipchatBundle\Handler\MonologHandler">
+            <call method="setHipchat"><argument type="service" id="hipchat" /></call>
+            <call method="setHipchatParameters">
+                <argument>%evercode_hipchat.room%</argument>
+                <argument>%evercode_hipchat.name%</argument>
+            </call>
+        </service>
+    </services>
+
+</container>
