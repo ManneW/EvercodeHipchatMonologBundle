@@ -7,8 +7,8 @@
         <service id="evercode.monolog.handler.hipchat" class="Evercode\HipchatBundle\Handler\MonologHandler">
             <call method="setHipchat"><argument type="service" id="hipchat" /></call>
             <call method="setHipchatParameters">
-                <argument>%evercode_hipchat.room%</argument>
-                <argument>%evercode_hipchat.name%</argument>
+                <argument>%evercode_hipchat_monolog.room%</argument>
+                <argument>%evercode_hipchat_monolog.name%</argument>
             </call>
         </service>
     </services>

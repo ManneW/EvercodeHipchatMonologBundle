@@ -22,12 +22,12 @@ class EvercodeHipchatExtension extends Extension
         $loader->load('config.xml');
 
         $container->setParameter(
-            'evercode_hipchat.room',
+            'evercode_hipchat_monolog.room',
             $config['room']
         );
 
         $container->setParameter(
-            'evercode_hipchat.name',
+            'evercode_hipchat_monolog.name',
             $config['name']
         );
     }

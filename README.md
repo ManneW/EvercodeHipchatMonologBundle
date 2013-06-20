@@ -34,7 +34,7 @@ You also can configure it:
 mannew_hipchat:
     auth_token: YOUR_HIPCHAT_AUTH_TOKEN_HERE
 
-evercode_hipchat:
+evercode_hipchat_monolog:
     name: Error Reporter
     room: Errors
 ```
